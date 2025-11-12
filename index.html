@@ -9,9 +9,15 @@
 </head>
 
 <body>
-
   <div class="container">
     <h1>Pokédex</h1>
+
+    <!-- Formulário de busca -->
+    <form data-js="search-form" class="search-form">
+      <input type="text" data-js="search" placeholder="Buscar por nome ou número..." />
+      <button type="submit">Buscar</button>
+    </form>
+
     <ul data-js="pokedex" class="pokedex"></ul>
   </div>
 
